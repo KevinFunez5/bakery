@@ -26,6 +26,8 @@ namespace Bakery
     public void AddPastries(int qty)
     {
       QuantityOrdered += qty;
+      Total();
+
     }
     public void Total()
     {

@@ -20,14 +20,14 @@ public class Program
     } 
     else 
     {
-      Console.WriteLine("Thankyou!");
+      Console.WriteLine("How many pastries would you like to purchase? Enter quantity:");
     }
     int pastryQTY = Convert.ToInt32(Console.ReadLine());
     bread.AddLoaves(breadQTY);
     pastry.AddPastries(pastryQTY);
 
     int Total = bread.TotalCost + pastry.TotalCost;
+    Console.WriteLine(Total);
     Console.WriteLine("Your total is "+Total.ToString("C2")+"");
-    // Console.WriteLine(pastryQTY);
   }
 }
