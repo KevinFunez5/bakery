@@ -63,5 +63,20 @@ namespace Bakery.Tests
       //Assert
       Assert.AreEqual(1, pastry.QuantityOrdered);
     }
+
+    [TestMethod]
+    public void calcutaleCost_MultiplePatries_Total()
+    {
+      //Arrange
+      Pastry pastry = new Pastry();
+      pastry.PricePer = 2;
+      pastry.AddPastries(2);
+
+      //Act
+      pastry.Total();
+
+      //Assert
+      Assert.AreEqual(4, pastry.TotalCost);
+    }
   }
 }

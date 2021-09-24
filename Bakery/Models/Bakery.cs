@@ -20,10 +20,18 @@ namespace Bakery
   }
   public class Pastry
   {
+    public int PricePer { get; set; }
+    public int TotalCost { get; set; }
     public int QuantityOrdered { get; set;}
     public void AddPastries(int qty)
     {
       QuantityOrdered += qty;
+    }
+    public void Total()
+    {
+      int unos = QuantityOrdered % 3;
+      int setsOfThree = (QuantityOrdered - unos)/3;
+      TotalCost = (unos * PricePer) + (setsOfThree * ((PricePer * 2)+(PricePer/2)));
     }
   }
 }
