@@ -20,6 +20,10 @@ namespace Bakery
   }
   public class Pastry
   {
-    
+    public int QuantityOrdered { get; set;}
+    public void AddPastries(int qty)
+    {
+      QuantityOrdered += qty;
+    }
   }
 }
