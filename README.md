@@ -1,37 +1,41 @@
-# _{Application Name}_
+# _Bakery_
 
-#### By _**{List of contributors}**_
+#### By _**Kevin Funez**_
 
-#### _{Brief description of application}_
+#### _This is a console application, where a user enters how bread and patries they want and it will return the cost._
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _C#_
+* _.NET_
+* _MSTest_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This is the first C# independent project for Epicodus. Here I am testing the method from the simplist step to the most complex using MSTesting. We are to make an application where a user will enter the quantity of bread and pastries and the console will return the grand total price!_ 
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _If you do not already have .NET 5 installed, download it [here](https://dotnet.microsoft.com/download/dotnet/5.0)_
+* _You will also need a text editor like [VS Code](https://code.visualstudio.com/)_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* _Clone [this repository](https://github.com/KevinFunez5/bakery) to an empty folder or to your desktop.  
+Instructions for cloning can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)._
+* _To run the app in the terminal, navigate to the top level of the WordScrabble.Solution/WordScrabble directory and enter ```dotnet run```_
+* _To run tests, navigate to WordScrabble.Tests in your terminal and run the command ```dotnet test```_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* No known bugs
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_MIT License
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) [2021] [Kevin Funez]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
