@@ -38,7 +38,7 @@ namespace Bakery.Tests
       bread.Total();
       
       //Assert
-      Assert.AreEqual(10, bread.TotalCost);
+      Assert.AreEqual(0, bread.TotalCost);
     }
   }
 }
