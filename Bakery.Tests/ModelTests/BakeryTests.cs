@@ -25,5 +25,20 @@ namespace Bakery.Tests
       //Assert
       Assert.AreEqual(1, bread.QuantityOrdered);
     }
+
+    [TestMethod]
+    public void Total_AddMultipleLoafs_TotalCost()
+    {
+      //Arrange
+      Bread bread = new Bread();
+      bread.PricePer = 5;
+      bread.AddLoaves(2);
+
+      //Act
+      bread.Total();
+      
+      //Assert
+      Assert.AreEqual(10, bread.TotalCost);
+    }
   }
 }
