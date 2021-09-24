@@ -17,13 +17,14 @@ public class Program
     if (breadQTY != 0)
     {
       Console.WriteLine("How many pastries would you like to purchase? Enter quantity:");
-      
+      int pastryQTY = Convert.ToInt32(Console.ReadLine());
     } 
     else 
     {
       Console.WriteLine("Thankyou!");
     }
     bread.AddLoaves(breadQTY);
+    pastry.AddPastries(pastryQTY);
     Console.WriteLine(breadQTY);
   }
     // string selection = "a";
