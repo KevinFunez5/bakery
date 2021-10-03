@@ -21,8 +21,8 @@ _This is the first C# independent project for Epicodus. Here I am testing the me
 
 * _Clone [this repository](https://github.com/KevinFunez5/bakery) to an empty folder or to your desktop.  
 Instructions for cloning can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)._
-* _To run the app in the terminal, navigate to the top level of the WordScrabble.Solution/WordScrabble directory and enter ```dotnet run```_
-* _To run tests, navigate to WordScrabble.Tests in your terminal and run the command ```dotnet test```_
+* _To run the app in the terminal, navigate to the top level of the Bakey.Solution/Bakey directory and enter ```dotnet run```_
+* _To run tests, navigate to Bakey.Tests in your terminal and run the command ```dotnet test```_
 
 ## Known Bugs
 
